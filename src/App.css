@@ -1,0 +1,89 @@
+.error {
+  border: red 1px solid;
+}
+
+.error-message {
+  color: red;
+}
+
+.active-filter {
+  background-color: rgb(22, 200, 9);
+}
+
+.is-done {
+  opacity: 0.5;
+}
+
+.formTask {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(160, 160, 160);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(160, 160, 160);
+}
+
+.listForm {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 0px;
+  border: 2px solid rgb(160, 160, 160);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(160, 160, 160);
+  margin: 0px auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  align-items: center;
+  gap: 1;
+  background-color: rgb(210, 210, 210);
+  word-break: break-all;
+}
+
+.ulList {
+  width: 230px;
+  display: block;
+  list-style-type: none;
+  padding-inline-start: 0px;
+  align-items: start;
+}
+
+.checkboxList {
+  margin: 0px;
+}
+
+.addItem {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.btn-green {
+  color: rgb(0, 0, 0);
+  background-color: rgb(2, 92, 225);
+}
+
+.threeButtons {
+  padding-bottom: 20px;
+}
+
+.buttonDelete {
+  display: block;
+
+}
+
+.fontTask {
+  padding-left: 20px;
+  padding-right: 20px;
+  word-break: break-all;
+}
